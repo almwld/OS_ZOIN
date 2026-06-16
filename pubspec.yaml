@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  
+  # UI & Icons
   provider: ^6.1.1
   font_awesome_flutter: ^10.7.0
   google_fonts: ^6.2.1
@@ -18,12 +20,16 @@ dependencies:
   flutter_staggered_animations: ^1.1.1
   shimmer: ^3.0.0
   lottie: ^3.1.0
+  
+  # Storage
   shared_preferences: ^2.2.3
   path_provider: ^2.1.4
   hive: ^2.2.3
   hive_flutter: ^1.1.0
   flutter_secure_storage: ^9.2.2
   sqflite: ^2.3.3
+  
+  # Network
   http: ^1.2.1
   dio: ^5.4.3+1
   connectivity_plus: ^6.0.3
@@ -31,34 +37,34 @@ dependencies:
   internet_connection_checker: ^1.0.0+1
   wifi_iot: ^0.3.1
   socket_io_client: ^2.0.3+1
+  
+  # Security (بدون biometric_storage)
   crypto: ^3.0.3
   permission_handler: ^11.3.1
   local_auth: ^2.1.8
   encrypt: ^5.0.3
-  biometric_storage: ^5.1.0
+  
+  # Device
   device_info_plus: ^10.1.0
   battery_plus: ^6.0.1
   package_info_plus: ^8.0.0
   screen_brightness: ^1.0.0
-  volume_controller: ^3.4.4
+  volume_controller: ^3.3.4
+  
+  # Charts
   fl_chart: ^0.68.0
   syncfusion_flutter_charts: ^25.2.4
   pie_chart: ^5.4.0
+  
+  # Web & Utils
   webview_flutter: ^4.8.0
   url_launcher: ^6.3.0
-  flutter_localizations:
-    sdk: flutter
-  intl: ^0.19.0
-  easy_localization: ^3.0.7
   open_file: ^3.4.0
   file_picker: ^8.0.5
   video_player: ^2.9.1
   image_picker: ^1.1.1
-  image_gallery_saver: ^2.0.3
   share_plus: ^10.0.0
-  pdf: ^3.10.8
   speech_to_text: ^6.6.0
-  google_ml_kit: ^0.16.2
   vibration: ^1.8.4
   uuid: ^4.4.2
   logger: ^2.1.0
@@ -67,6 +73,12 @@ dependencies:
   timezone: ^0.9.3
   equatable: ^2.0.5
   draggable_scrollbar: ^0.1.0
+  
+  # Internationalization
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  easy_localization: ^3.0.7
 
 dev_dependencies:
   flutter_test:
