@@ -36,7 +36,6 @@ dependencies:
   local_auth: ^2.1.8
   encrypt: ^5.0.3
   biometric_storage: ^5.1.0
-  flutter_otp: ^1.0.3
   device_info_plus: ^10.1.0
   battery_plus: ^6.0.1
   package_info_plus: ^8.0.0
